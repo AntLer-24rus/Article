@@ -1,0 +1,39 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.gz",
+				"*.xml",
+				"*.out",
+				"*.pdf",
+				"*.blg",
+				"*.aux",
+				"*.bbl",
+				"*.bcf",
+				"*.fdb_latexmk",
+				"*.xdv",
+				"*.fls",
+				"*.synctex(busy)"
+			],
+			"path": "F:\\Documents AntLer\\GDrive\\Dissertation\\Статьи\\2017\\в процессе\\GSM Глушилки"
+		}
+	],
+	"settings":
+	{
+		"TEXroot": "article.tex",
+		"builder": "traditional",
+		"builder_settings":
+		{
+			"program": "xelatex"
+		},
+		"copy_output_on_build":
+		[
+			".pdf",
+			".synctex.gz"
+		],
+		"jobname": "GMS Jammers",
+		"output_directory": "outfiles"
+	}
+}

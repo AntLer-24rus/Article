@@ -1,0 +1,593 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mu",
+				"multicolumn{cols}{pos}{text}\tlatex-document"
+			],
+			[
+				"up",
+				"MakeUppercase{text}\tlatex-document"
+			],
+			[
+				"renew",
+				"renewcommand{cmd}[args]{def}\tlatex-document"
+			],
+			[
+				"make",
+				"makeatother\tlatex-document"
+			],
+			[
+				"normal",
+				"normalsize\tlatex-document"
+			],
+			[
+				"in",
+				"include{file}\tlatex-document"
+			],
+			[
+				"new",
+				"newcommand{cmd}{def}\tlatex-document"
+			],
+			[
+				"no",
+				"noindent\ttex"
+			],
+			[
+				"exp",
+				"ResultsOfTheExperiment"
+			],
+			[
+				"fig",
+				"fig:FileMap"
+			],
+			[
+				"label",
+				"label{key}\tlatex-document"
+			],
+			[
+				"texti",
+				"textit{text}\tlatex-document"
+			],
+			[
+				"end",
+				"end{figure}\tarticle.tex"
+			],
+			[
+				"capti",
+				"caption{title}\tlatex-document"
+			],
+			[
+				"begfi",
+				"begin{figure*}[placement]\tlatex-document"
+			],
+			[
+				"cite",
+				"cite{keylist}\tlatex-document"
+			],
+			[
+				"bef",
+				"begin{figure}[placement]\tlatex-document"
+			],
+			[
+				"sec",
+				"section{title}\tlatex-document"
+			],
+			[
+				"ref",
+				"ref{key}\tlatex-document"
+			],
+			[
+				"ite",
+				"itemize"
+			],
+			[
+				"beite",
+				"begin{itemize}\\item\tlatex-document"
+			],
+			[
+				"se",
+				"sec\tSection"
+			],
+			[
+				"re",
+				"ref"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Build: ",
+		"selected_items":
+		[
+			[
+				"Build: ",
+				"Build With: LaTeX - Clean up Files"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"al",
+				"AlignTab"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"pacconins",
+				"Package Control: Install Package"
+			],
+			[
+				"set syn la",
+				"Set Syntax: LaTeXing"
+			],
+			[
+				"snippet:latex",
+				"Snippet: Sans Serif Font Family Text"
+			],
+			[
+				"file manager",
+				"File Manager: Move"
+			],
+			[
+				"fil",
+				"File Manager: List Templates"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"reso",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Build: cl",
+				"Build With: LaTeX - Clean up Files"
+			],
+			[
+				"Build: clea",
+				"Build With: LaTeX - Clean up Files"
+			],
+			[
+				"LaTeXing: ",
+				"LaTeXing: Texcount"
+			],
+			[
+				"pc:ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"pc:dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"set syna antl",
+				"Set Syntax: Antler - LaTeX"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"antler",
+				"Set Syntax: Antler - LaTeX"
+			],
+			[
+				"snippet:la",
+				"Snippet: Insert a LaTeX environment"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"select",
+				"UI: Select Color Scheme"
+			],
+			[
+				"select the",
+				"UI: Select Theme"
+			],
+			[
+				"Snippet: ita",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"Snippet: it",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pc ip",
+				"Package Control: Install Package"
+			],
+			[
+				"pa ip",
+				"Package Control: Install Package"
+			],
+			[
+				"cpi",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: sub",
+				"Snippet: Sub Section"
+			],
+			[
+				"Snippet: pdf",
+				"Snippet: LaTeXing Option PDF Name"
+			],
+			[
+				"Snippet: ",
+				"Snippet: LaTeXing Option Root File"
+			],
+			[
+				"Snippet: tex",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"Snippet: ad",
+				"Snippet: LaTeXing Option Dictionary"
+			],
+			[
+				"Snippet: fig",
+				"Snippet: figure"
+			],
+			[
+				"Snippet: figu",
+				"Snippet: Figure"
+			],
+			[
+				"p c i p",
+				"Package Control: Install Package"
+			],
+			[
+				"pa ad re",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"paka",
+				"Package Control: Install Package"
+			],
+			[
+				"undo",
+				"Code Folding: Unfold All"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"PCI",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 308.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sunlime.log_commands(True)",
+			"clear",
+			"clc",
+			"fm_create",
+			"ubdo"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Documents AntLer/Articles/Result of experiment"
+	],
+	"file_history":
+	[
+		"/F/Documents AntLer/Articles/Result of experiment/ResulOfExperiment.sublime-project",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/Default (Windows).sublime-keymap",
+		"/F/Documents AntLer/Articles/Calibration/article.tex",
+		"/F/Documents AntLer/Articles/Calibration/content.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/authorconferences.bib",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/Default.sublime-keymap",
+		"/F/Documents AntLer/Articles/Setups/setup_XETEX.tex",
+		"/F/Documents AntLer/GDrive/Учебная работа/Информатика/Лекции/Lectures/Lecture01.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/part2.tex",
+		"/F/Documents AntLer/Articles/Calibration/Список задач.todo",
+		"/F/Documents AntLer/GDrive/Учебная работа/Информатика/Лекции/intro.tex",
+		"/F/Documents AntLer/GDrive/Учебная работа/Информатика/Лекции/Lectures.tex",
+		"/F/Program Files (x86)/Steam/steamapps/common/Kerbal Space Program/GameData/kOS/kOS.version",
+		"/F/Documents AntLer/DBeFarmaЦентр/mail/Письма в ящике pharma-chamomile@mail.ru.lst",
+		"/C/Program Files (x86)/1Cv77/OpenConf/Config/Scripts/Intellisence.vbs",
+		"/C/Program Files (x86)/1Cv77/BIN/Config/Scripts/Intellisence.vbs",
+		"/F/Documents AntLer/DBeFarmaЦентр/mail/Настройки.set",
+		"/C/Program Files (x86)/1Cv77/BIN/Config/Intell/ProgIDDumped.txt",
+		"/F/Documents AntLer/DBeFarmaЦентр/DialMail/dialmail.Intell/_ProgIDDumped.txt",
+		"/C/Program Files (x86)/1Cv77/BIN/Config/Intell/СоздатьОбъект.ints",
+		"/F/Documents AntLer/DBeFarmaЦентр/DialMail/dialmail.Intell/_СоздатьОбъект.ints",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/tables/DCHor.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/tables/rawHor0.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/tables/DCLat.tex",
+		"/F/Documents AntLer/Articles/Setups/biblatex.tex",
+		"/F/Documents AntLer/Articles/Styles/styles_KUZGTU.tex",
+		"/F/Documents AntLer/Articles/Calibration/data.tex",
+		"/F/Documents AntLer/Articles/Result of experiment/article.tex",
+		"/F/Documents AntLer/Articles/Calibration/abstract.tex",
+		"/F/Documents AntLer/Articles/Calibration/Calibration.sublime-project",
+		"/F/Documents AntLer/Articles/Result of experiment/data.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/data.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/newnames.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/concl.tex",
+		"/F/Documents AntLer/Articles/Result of experiment/setupXETEX.tex",
+		"/F/Documents AntLer/Articles/Result of experiment/styles_KUZGTU.tex",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/setup.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/renames.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/characteristic.tex",
+		"/F/Documents AntLer/Articles/Result of experiment/РезультатыЭксперимента.sublime-project",
+		"/F/Documents AntLer/Articles/Result of experiment/tr",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/FileManager/README.md",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/support/LaTeX.tmLanguage",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/LaTeX.sublime-build",
+		"/F/Documents AntLer/Articles/Result of experiment/article.log",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeX.sublime-syntax",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/biblatex.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/РезультатыЭксперимента.sublime-project",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/article.log",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/article.stderr.log",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/article.stdout.log",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/Антон/Documents/LaTeX1.tmLanguage",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/Color Scheme - Default/Breakers.tmTheme",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Breakers - AntLer.tmTheme",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeX.tmLanguage.bac",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeX.tmLanguage",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/support/LaTeX.tmLanguage.JSON",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/support/LaTeX.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/kos.tmLanguage.json",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeX.tmLanguage.JSON",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Breakers.tmTheme",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/setupXETEX.tex",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/kos.YAML-tmLanguage",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Matlab.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/kos.tmLanguage",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/kos.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/article.tex",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeX.tmLanguage.xml",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/kos.sublime-completions",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Objective-C.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/Статья.sublime-project",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/F/Downloads/ss_59e5928c9994d4.92341444.vcf/0.vcf",
+		"/F/Downloads/new 1.vcf",
+		"/F/Downloads/contacts.vcf",
+		"/F/Downloads/contacts (1).vcf",
+		"/F/Downloads/ss_59e575c519eb70.37715601.vcf/0.vcf",
+		"/F/Downloads/contactsG/Алексей Викторович Сумин.vcf",
+		"/f/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/othercites.bib",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/snippets/wrapper/textit.sublime-snippet",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/snippets/xdata.biblatex-snippet",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/images/SignalRaw.png",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/othercites.bib",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/outfiles/ResultsOfTheExperiment_1.fls",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/outfiles/ResultsOfTheExperiment_1.log",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/ResultsOfTheExperiment.log",
+		"/C/Users/Антон/Desktop/Статья.sublime-project",
+		"/F/Downloads/438348-08.xml",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/title.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/setup.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/disstyles.tex",
+		"/C/texlive/2017/texmf-dist/doc/latex/disser/templates-utf8/candidate/thesis.tex",
+		"/C/texlive/2017/texmf-dist/doc/latex/disser/templates-utf8/specialist/thesis.tex",
+		"/F/Downloads/1.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/userpackages.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/dispackages.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/packages.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/styles_KUZGTU.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/part3.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/Article.pdf",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/images/DropGrossError.png",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/syntax_fold.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/SyntaxFold/syntax_fold.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/jumpToPDF.py",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/viewers/sumatra_viewer.py",
+		"/F/Documents",
+		"/C/Program Files/SumatraPDF/AntLer/GDrive/Dissertation/Статьи/2017/в",
+		"/C/Program Files/SumatraPDF/процессе/результаты",
+		"/C/Program Files/SumatraPDF/эксперимента/article.tex",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools (Advanced).sublime-settings",
+		"/C/Program Files/Sublime Text 3/%f",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/dissertation.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/part1.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/appendix.tex",
+		"/F/Downloads/424389-08.xml",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/userstyles.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/styles.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/acronyms.tex",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/setup.tex"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ResulOfExperiment.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\Documents AntLer\\GDrive\\Dissertation\\Статьи\\2017\\в процессе\\GSM Глушилки\\GSM Глушилки.sublime-project"
+			]
+		],
+		"width": 620.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

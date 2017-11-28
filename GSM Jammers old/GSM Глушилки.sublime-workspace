@@ -1,0 +1,2064 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jo",
+				"\\jobname                                          \ttex"
+			],
+			[
+				"subs",
+				"subsection{title}\tlatex-document"
+			],
+			[
+				"se",
+				"section{title}\tlatex-document"
+			],
+			[
+				"begin",
+				"begin{abstract}\tlatex-document"
+			],
+			[
+				"fig",
+				"fig:FileMap"
+			],
+			[
+				"label",
+				"label{key}\tlatex-document"
+			],
+			[
+				"texti",
+				"textit{text}\tlatex-document"
+			],
+			[
+				"end",
+				"end{figure}\tarticle.tex"
+			],
+			[
+				"capti",
+				"caption{title}\tlatex-document"
+			],
+			[
+				"begfi",
+				"begin{figure*}[placement]\tlatex-document"
+			],
+			[
+				"cite",
+				"cite{keylist}\tlatex-document"
+			],
+			[
+				"bef",
+				"begin{figure}[placement]\tlatex-document"
+			],
+			[
+				"sec",
+				"section{title}\tlatex-document"
+			],
+			[
+				"ref",
+				"ref{key}\tlatex-document"
+			],
+			[
+				"ite",
+				"itemize"
+			],
+			[
+				"beite",
+				"begin{itemize}\\item\tlatex-document"
+			],
+			[
+				"re",
+				"ref"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "article.tex",
+			"settings":
+			{
+				"buffer_size": 6699,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "setupXETEX.tex",
+			"settings":
+			{
+				"buffer_size": 7433,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles_KUZGTU.tex",
+			"settings":
+			{
+				"buffer_size": 3234,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 200 files for \"table\"\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\common\\packages.tex:\n   57  \\usepackage[dvipsnames,usenames]{xcolor}\n   58  \\usepackage{colortbl}\n   59: %\\usepackage[dvipsnames, table, hyperref, cmyk]{xcolor} % Вероятно, более новый вариант, вместо предыдущих двух строк. Конвертация всех цветов в cmyk заложена как удовлетворение возможного требования типографий. Возможно конвертирование и в rgb.\n   60  \n   61  %%% Таблицы %%%\n   62: \\usepackage{longtable}                              % Длинные таблицы\n   63  \\usepackage{multirow,makecell}                      % Улучшенное форматирование таблиц\n   64  \n   ..\n   82  \n   83  %%% Счётчики %%%\n   84: \\usepackage[figure,table]{totalcount}               % Счётчик рисунков и таблиц\n   85  \\usepackage{totcount}                               % Пакет создания счётчиков на основе последнего номера подсчитываемого элемента (может требовать дважды компилировать документ)\n   86  \\usepackage{totpages}                               % Счётчик страниц, совместимый с hyperref (ссылается на номер последней страницы). Желательно ставить последним пакетом в преамбуле\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\common\\renames.tex:\n    2  \\renewcommand{\\contentsname}{Оглавление} % (ГОСТ Р 7.0.11-2011, 4)\n    3  \\renewcommand{\\figurename}{Рисунок} % (ГОСТ Р 7.0.11-2011, 5.3.9)\n    4: \\renewcommand{\\tablename}{Таблица} % (ГОСТ Р 7.0.11-2011, 5.3.10)\n    5  \\renewcommand{\\listfigurename}{Список рисунков}\n    6: \\renewcommand{\\listtablename}{Список таблиц}\n    7  \\renewcommand{\\bibname}{\\fullbibtitle}\n    8  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\common\\styles.tex:\n   33      \\newcommand{\\tabcapalign}{\\raggedright}  % по левому краю страницы или аналога parbox\n   34  \n   35:     \\DeclareCaptionFormat{tablecaption}{\\tabcapalign #1#2#3}\n   36:     \\captionsetup[table]{labelsep=emdash}        % тире как разделитель идентификатора с номером от наименования\n   37  }{%\n   38      \\ifnumequal{\\value{tablaba}}{0}{%\n   ..\n   60      }{}\n   61  \n   62:     \\DeclareCaptionFormat{tablecaption}{\\tabcapalign #1#2\\par%  % Идентификатор таблицы на отдельной строке\n   63          \\tabtitalign{#3}}                                       % Наименование таблицы строкой ниже\n   64:     \\captionsetup[table]{labelsep=\\tablabelsep}                 % разделитель идентификатора с номером от наименования\n   65  }\n   66: \\DeclareCaptionFormat{tablenocaption}{\\tabcapalign #1\\strut}    % Наименование таблицы отсутствует\n   67  \n   68: \\captionsetup[table]{format=tablecaption,singlelinecheck=off,position=top,skip=0pt}  % многострочные наименования и прочее\n   69  \\DeclareCaptionLabelFormat{continued}{Продолжение таблицы~#2}\n   70  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\dissertation.aux:\n   42  \\providecommand\\totalcount@set[2]{}\n   43  \\totalcount@set{figure}{22}\n   44: \\totalcount@set{table}{8}\n   45  \\newlabel{TotPages}{{66}{66}{}{page.66}{}}\n   46  \\expandafter\\ifx\\csname c@totalcount@figure@totc\\endcsname\\relax\\newcounter{totalcount@figure@totc}\\fi\\setcounter{totalcount@figure@totc}{22}\n   47: \\expandafter\\ifx\\csname c@totalcount@table@totc\\endcsname\\relax\\newcounter{totalcount@table@totc}\\fi\\setcounter{totalcount@table@totc}{8}\n   48  \\expandafter\\ifx\\csname c@TotPages@totc\\endcsname\\relax\\newcounter{TotPages@totc}\\fi\\setcounter{TotPages@totc}{66}\n   49  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\dissertation.fdb_latexmk:\n   85    \"Dissertation/references.tex\" 1491213571 1185 93bc3eadc0aed93c6ebbb9d702b49856 \"\"\n   86    \"Dissertation/setup.tex\" 1500634005 5515 f9093f20bec80ec9070593e6bf663e02 \"\"\n   87:   \"Dissertation/tables/DCHor.tex\" 1500886858 880 7c7cfbe2d3ca092f9c2a685d4f75a392 \"\"\n   88:   \"Dissertation/tables/DCLat.tex\" 1501578789 860 bd0f5abefbc0d8c7c11d0efb6171c4ee \"\"\n   89:   \"Dissertation/tables/DCVert.tex\" 1501578789 872 7605a83cfd8d93d33f0d95f09404ce60 \"\"\n   90:   \"Dissertation/tables/rawHor0.tex\" 1501062638 6615 93614dd70432599a3a1dd031c9fbb176 \"\"\n   91    \"Dissertation/title.aux\" 1507097410 2675 d2d5c38921e28256b07837cec5cd2149 \"\"\n   92    \"Dissertation/title.tex\" 1491218695 2748 07e8622d3667dba8ef878f396557cb34 \"\"\n   ..\n  232    \"c:/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty\" 1507016313 42324 d951db30d0cb2b811f084fa3f92aec16 \"\"\n  233    \"c:/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty\" 1507016379 45360 a0833d32f1b541964596b02870342d5a \"\"\n  234:   \"c:/texlive/2017/texmf-dist/tex/latex/floatrow/fr-longtable.sty\" 1507016628 4590 3e588750c8c674ad6357599b7c4f4b65 \"\"\n  235    \"c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty\" 1507016703 149347 22aa09618a2d85f53e48e5eed5d8f27f \"\"\n  236    \"c:/texlive/2017/texmf-dist/tex/latex/fontspec/fontspec.cfg\" 1507016703 549 e7553134efaf62922106a54300834ab9 \"\"\n  ...\n  300    \"c:/texlive/2017/texmf-dist/tex/latex/tools/calc.sty\" 1507021231 10214 d03d065f799d54f6b7e9b175f8d84279 \"\"\n  301    \"c:/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty\" 1507021231 1617 820bc46185ca5aeeda2ecc6c21866b18 \"\"\n  302:   \"c:/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty\" 1507021231 12083 80916157594a8e4354985aaefae4f367 \"\"\n  303    \"c:/texlive/2017/texmf-dist/tex/latex/totcount/totcount.sty\" 1507021249 5857 486f8b9b567dcfc1437aed4344eff39b \"\"\n  304    \"c:/texlive/2017/texmf-dist/tex/latex/totpages/totpages.sty\" 1507021251 7670 b07e668265cf485332abe582e7ed306e \"\"\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\dissertation.fls:\n  134  INPUT c:/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty\n  135  INPUT c:/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty\n  136: INPUT c:/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty\n  137: INPUT c:/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty\n  138  INPUT c:/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty\n  139  INPUT c:/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty\n  ...\n  333  INPUT c:/texlive/2017/texmf-dist/tex/latex/tabulary/tabulary.sty\n  334  INPUT c:/texlive/2017/texmf-dist/tex/latex/tabulary/tabulary.sty\n  335: INPUT c:/texlive/2017/texmf-dist/tex/latex/floatrow/fr-longtable.sty\n  336: INPUT c:/texlive/2017/texmf-dist/tex/latex/floatrow/fr-longtable.sty\n  337  INPUT c:/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty\n  338  INPUT c:/texlive/2017/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty\n  ...\n  468  INPUT Dissertation/images/TenzoGolovka.png\n  469  INPUT Dissertation/images/CalibrationRawHor.png\n  470: INPUT Dissertation/tables/DCHor.tex\n  471: INPUT Dissertation/tables/DCHor.tex\n  472  INPUT Dissertation/images/Calibration.png\n  473  OUTPUT Dissertation/part3.aux\n  ...\n  548  INPUT Dissertation/images/CalibrationRawLat.png\n  549  INPUT Dissertation/images/CalibrationRawVert.png\n  550: INPUT Dissertation/tables/rawHor0.tex\n  551: INPUT Dissertation/tables/rawHor0.tex\n  552: INPUT Dissertation/tables/DCLat.tex\n  553: INPUT Dissertation/tables/DCLat.tex\n  554: INPUT Dissertation/tables/DCVert.tex\n  555: INPUT Dissertation/tables/DCVert.tex\n  556  INPUT ../Experiment/matlab/ForManuscript/processing.m\n  557  INPUT c:/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\dissertation.log:\n  144  \\backup@length=\\skip112\n  145  \\TX@col@width=\\dimen109\n  146: \\TX@old@table=\\dimen110\n  147  \\TX@old@col=\\dimen111\n  148  \\TX@target=\\dimen112\n  ...\n  167  \\@lastruleclass=\\count105\n  168  \\@thisrulewidth=\\dimen126\n  169: \\ctableftskip=\\skip113\n  170  \\ctabrightskip=\\skip114\n  171  \\abovecolumnspenalty=\\count106\n  ...\n  306  \\cftfigureindent=\\skip180\n  307  \\cftfigurenumwidth=\\skip181\n  308: \\c@table=\\count137\n  309  \\c@lotdepth=\\count138\n  310: \\cftbeforetableskip=\\skip182\n  311: \\cfttableindent=\\skip183\n  312: \\cfttablenumwidth=\\skip184\n  313  Package abstract [2008/07/23] emulated by memoir.\n  314  Package appendix [2008/07/23] emulated by memoir.\n  ...\n  946  ))\n  947  (c:/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty\n  948: Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)\n  949  \\everycr=\\toks39\n  950  \\minrowclearance=\\skip264\n  951  )\n  952: (c:/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty\n  953: Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)\n  954  \\LTleft=\\skip265\n  955  \\LTright=\\skip266\n  ...\n  964  \\LT@cols=\\count326\n  965  \\LT@rows=\\count327\n  966: \\c@LT@tables=\\count328\n  967  \\c@LT@chunks=\\count329\n  968  \\LT@p@ftn=\\toks40\n  969  )\n  970  (c:/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty\n  971: Package: multirow 2016/11/25 v2.2 Span multiple rows of a table\n  972  \\multirow@colwidth=\\skip269\n  973  \\multirow@cntb=\\count330\n  ...\n 1170  \\c@ContinuedFloat=\\count347\n 1171  Package caption Info: hyperref package is loaded.\n 1172: Package caption Info: longtable package is loaded.\n 1173  \n 1174  (c:/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty\n 1175: Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)\n 1176  ))\n 1177  (c:/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty\n 1178  Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)\n 1179  \\c@subfigure=\\count348\n 1180: \\c@subtable=\\count349\n 1181  )\n 1182  (c:/texlive/2017/texmf-dist/tex/latex/caption/totalcount.sty\n 1183  Package: totalcount 2013/05/12 v1.0-92 Total values of counters (AR)\n 1184  \\c@totalcount@figure=\\count350\n 1185: \\c@totalcount@table=\\count351\n 1186  )\n 1187  (c:/texlive/2017/texmf-dist/tex/latex/totcount/totcount.sty\n ....\n 1601  \\tymin=\\dimen350\n 1602  \\tymax=\\dimen351\n 1603: \\TY@tablewidth=\\dimen352\n 1604  )\n 1605: (c:/texlive/2017/texmf-dist/tex/latex/floatrow/fr-longtable.sty\n 1606: Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable\n 1607  \n 1608  \\flrow@LT@lasthead=\\box91\n ....\n 1969  (./Dissertation/appendix.aux)\n 1970  \\c@totalcount@figure@totc=\\count416\n 1971: \\c@totalcount@table@totc=\\count417\n 1972  \\c@TotPages@totc=\\count418\n 1973  )\n ....\n 2289  <Dissertation/images/CalibrationRawHor.png>\n 2290   [24.24]\n 2291: (./Dissertation/tables/DCHor.tex\n 2292  \n 2293: Package nag Warning: `center' environment in table.\n 2294  (nag)                Maybe you want \\centering instead on input line 18.\n 2295  \n ....\n 2479  \n 2480  \n 2481: ] (./Dissertation/tables/rawHor0.tex\n 2482: [52.52] [53.53] [54.54]) (./Dissertation/tables/DCLat.tex\n 2483  \n 2484: Package nag Warning: `center' environment in table.\n 2485  (nag)                Maybe you want \\centering instead on input line 18.\n 2486  \n 2487: ) (./Dissertation/tables/DCVert.tex\n 2488  \n 2489: Package nag Warning: `center' environment in table.\n 2490  (nag)                Maybe you want \\centering instead on input line 18.\n 2491  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\dissertation.xdv:\n    <binary>\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\acronyms.aux:\n   60  \\setcounter{figure}{0}\n   61  \\setcounter{lofdepth}{1}\n   62: \\setcounter{table}{0}\n   63  \\setcounter{lotdepth}{1}\n   64  \\setcounter{draft}{0}\n   65  \\setcounter{bibliosel}{0}\n   66  \\setcounter{parentequation}{0}\n   67: \\setcounter{LT@tables}{2}\n   68  \\setcounter{LT@chunks}{1}\n   69  \\setcounter{nlinenum}{0}\n   ..\n   76  \\setcounter{ContinuedFloat}{0}\n   77  \\setcounter{subfigure}{0}\n   78: \\setcounter{subtable}{0}\n   79  \\setcounter{totalcount@figure}{20}\n   80: \\setcounter{totalcount@table}{5}\n   81  \\setcounter{FBLTpage}{2}\n   82  \\setcounter{FancyVerbLine}{0}\n   ..\n  101  \\setcounter{citenum@totc}{18}\n  102  \\setcounter{totalcount@figure@totc}{22}\n  103: \\setcounter{totalcount@table@totc}{8}\n  104  \\setcounter{TotPages@totc}{66}\n  105  \\setcounter{section@level}{2}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\acronyms.tex:\n    2  \\addcontentsline{toc}{chapter}{Список сокращений и условных обозначений}  % Добавляем его в оглавление\n    3  \\noindent\n    4: \\addtocounter{table}{-1}% Нужно откатить на единицу счетчик номеров таблиц, так как следующая таблица сделана для удобства представления информации по ГОСТ\n    5  %\\begin{longtabu} to \\dimexpr \\textwidth-5\\tabcolsep {r X}\n    6  \\begin{longtabu} to \\textwidth {r X}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\acronyms_help.tex:\n    2  \\addcontentsline{toc}{chapter}{Список сокращений и условных обозначений}  % Добавляем его в оглавление\n    3  \\noindent\n    4: \\addtocounter{table}{-1}% Нужно откатить на единицу счетчик номеров таблиц, так как следующая таблица сделана для удобства представления информации по ГОСТ\n    5  %\\begin{longtabu} to \\dimexpr \\textwidth-5\\tabcolsep {r X}\n    6  \\begin{longtabu} to \\textwidth {r X}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\appendix.aux:\n   16  \\newlabel{img:CalibrationRawVert@cref}{{[figure][2][2147483647,1]А.2}{52}}\n   17  \\@writefile{toc}{\\contentsline {section}{\\numberline {А.2}Исходные данные при тарировании тензометрического звена}{52}{section.A.2}}\n   18: \\newlabel{Appendix:Calibration:Table}{{\\M@TitleReference {А.2}{Исходные данные при тарировании тензометрического звена}}{52}{Исходные данные при тарировании тензометрического звена}{section.A.2}{}}\n   19: \\newlabel{Appendix:Calibration:Table@cref}{{[subappendix][2][2147483647,1]А.2}{52}}\n   20: \\@writefile{lot}{\\contentsline {table}{\\numberline {А.1}{\\ignorespaces Сырые данные\\relax }}{52}{table.A.1}}\n   21: \\newlabel{tab:rawHor0}{{\\M@TitleReference {А.1}{Исходные данные при тарировании тензометрического звена}}{52}{Сырые данные\\relax }{table.A.1}{}}\n   22: \\newlabel{tab:rawHor0@cref}{{[table][1][2147483647,1]А.1}{52}}\n   23  \\gdef \\LT@iii {\\LT@entry \n   24      {1}{59.90936pt}\\LT@entry \n   ..\n   34  \\newlabel{Appendix:Calibration:DC}{{\\M@TitleReference {А.3}{Усредненные значения напряжения при тарировании тензометрического звена}}{55}{Усредненные значения напряжения при тарировании тензометрического звена}{section.A.3}{}}\n   35  \\newlabel{Appendix:Calibration:DC@cref}{{[subappendix][3][2147483647,1]А.3}{55}}\n   36: \\@writefile{lot}{\\contentsline {table}{\\numberline {А.2}{\\ignorespaces Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования боковой составляющей усиля резания\\relax }}{55}{table.caption.32}}\n   37: \\newlabel{tab:DCLat}{{\\M@TitleReference {А.2}{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования боковой составляющей усиля резания\\relax }}{55}{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования боковой составляющей усиля резания\\relax }{table.caption.32}{}}\n   38: \\newlabel{tab:DCLat@cref}{{[table][2][2147483647,1]А.2}{55}}\n   39: \\@writefile{lot}{\\contentsline {table}{\\numberline {А.3}{\\ignorespaces Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования вертикальной составляющей усиля резания\\relax }}{56}{table.caption.33}}\n   40: \\newlabel{tab:DCVert}{{\\M@TitleReference {А.3}{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования вертикальной составляющей усиля резания\\relax }}{56}{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования вертикальной составляющей усиля резания\\relax }{table.caption.33}{}}\n   41: \\newlabel{tab:DCVert@cref}{{[table][3][2147483647,1]А.3}{56}}\n   42  \\@writefile{toc}{\\contentsline {section}{\\numberline {А.4}Функция поиска постоянной составляющей}{56}{section.A.4}}\n   43  \\newlabel{Appendix:Calibration:Listing}{{\\M@TitleReference {А.4}{Функция поиска постоянной составляющей}}{56}{Функция поиска постоянной составляющей}{section.A.4}{}}\n   ..\n  117  \\setcounter{figure}{0}\n  118  \\setcounter{lofdepth}{1}\n  119: \\setcounter{table}{0}\n  120  \\setcounter{lotdepth}{1}\n  121  \\setcounter{draft}{0}\n  122  \\setcounter{bibliosel}{0}\n  123  \\setcounter{parentequation}{0}\n  124: \\setcounter{LT@tables}{3}\n  125  \\setcounter{LT@chunks}{10}\n  126  \\setcounter{nlinenum}{0}\n  ...\n  133  \\setcounter{ContinuedFloat}{0}\n  134  \\setcounter{subfigure}{0}\n  135: \\setcounter{subtable}{0}\n  136  \\setcounter{totalcount@figure}{22}\n  137: \\setcounter{totalcount@table}{8}\n  138  \\setcounter{FBLTpage}{5}\n  139  \\setcounter{FancyVerbLine}{0}\n  ...\n  158  \\setcounter{citenum@totc}{18}\n  159  \\setcounter{totalcount@figure@totc}{22}\n  160: \\setcounter{totalcount@table@totc}{8}\n  161  \\setcounter{TotPages@totc}{66}\n  162  \\setcounter{section@level}{1}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\appendix.tex:\n   23  \\end{figure}\n   24  \n   25: \\section{Исходные данные при тарировании тензометрического звена}\\label{Appendix:Calibration:Table}\n   26  \n   27: \\input{Dissertation/tables/rawHor0}\n   28  \n   29  \\section{Усредненные значения напряжения при тарировании тензометрического звена}\\label{Appendix:Calibration:DC}\n   30  \n   31: \\input{Dissertation/tables/DCLat}\n   32: \\input{Dissertation/tables/DCVert}\n   33  \n   34  \\section{Функция поиска постоянной составляющей}\\label{Appendix:Calibration:Listing}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\appendix_help.tex:\n    5  печатаемых сообщениях), он представлен на листинге~\\ref{list:hwbeauty}.\n    6  \\begin{ListingEnv}[!h]% настройки floating аналогичны окружению figure\n    7: %    \\captionsetup{format=tablenocaption}% должен стоять до самого caption\n    8      \\caption{Программа “Hello, world” на \\protect\\cpp}\n    9      % далее метка для ссылки:\n   ..\n  116  Вот размещается длинная таблица:\n  117  \\fontsize{10pt}{10pt}\\selectfont\n  118: \\begin{longtable*}[c]{|l|c|l|l|} %longtable* появляется из пакета caption и даёт ненумерованную таблицу\n  119  % \\caption{Описание входных файлов модели}\\label{Namelists} \n  120  %\\\\ \n  ...\n  257   mars & 0 & int & 1: инициализация модели для планеты Марс     \\\\ \n  258   \\hline \n  259: \\end{longtable*}\n  260  \n  261  \\normalsize% возвращаем шрифт к нормальному\n  ...\n  268      \\centering\n  269  \t\\small\n  270:     \\begin{longtable}[c]{|l|c|l|l|}\n  271  \t\\caption{Наименование таблицы средней длины}%\n  272      \\label{tbl:test5}% label всегда желательно идти после caption\n  ...\n  277       \\endfirsthead%\n  278  %     \\multicolumn{4}{|c|}{\\small\\slshape (продолжение)}        \\\\ \\hline\n  279:  \\captionsetup{format=tablenocaption,labelformat=continued}% должен стоять до самого caption\n  280      \\caption[]{}\\\\\n  281      \\hline\n  ...\n  413       mars & 0 & int & 1: инициализация модели для планеты Марс     \\\\ \n  414  %     \\hline \n  415:     \\end{longtable}\n  416  \\normalsize% возвращаем шрифт к нормальному\n  417  \\endgroup\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\appendix_helpm.tex:\n    5  печатаемых сообщениях), он представлен на листинге~\\ref{list:hwbeauty}.\n    6  \\begin{ListingEnv}[!h]% настройки floating аналогичны окружению figure\n    7: %    \\captionsetup{format=tablenocaption}% должен стоять до самого caption\n    8      \\caption{Программа “Hello, world” на \\protect\\cpp}\n    9      % далее метка для ссылки:\n   ..\n  116  Вот размещается длинная таблица:\n  117  \\fontsize{10pt}{10pt}\\selectfont\n  118: \\begin{longtable*}[c]{|l|c|l|l|} %longtable* появляется из пакета caption и даёт ненумерованную таблицу\n  119  % \\caption{Описание входных файлов модели}\\label{Namelists} \n  120  %\\\\ \n  ...\n  257   mars & 0 & int & 1: инициализация модели для планеты Марс     \\\\ \n  258   \\hline \n  259: \\end{longtable*}\n  260  \n  261  \\normalsize% возвращаем шрифт к нормальному\n  ...\n  268      \\centering\n  269  \t\\small\n  270:     \\begin{longtable}[c]{|c|c|c|c||c|c|c|c|}\n  271  \t\\caption{Наименование таблицы средней длины}%\n  272      \\label{tbl:test5}% label всегда желательно идти после caption\n  ...\n  277       \\endfirsthead%\n  278  %     \\multicolumn{4}{|c|}{\\small\\slshape (продолжение)}        \\\\ \\hline\n  279:  \\captionsetup{format=tablenocaption,labelformat=continued}% должен стоять до самого caption\n  280      \\caption[]{}\\\\\n  281      \\hline\n  ...\n  389       0.99 & 0 & -0.0025 & 0 & 1.99 & 0 & -0.0025 & 0\\\\\n  390  %     \\hline \n  391:     \\end{longtable}\n  392  \\normalsize% возвращаем шрифт к нормальному\n  393  \\endgroup\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\conclusion.aux:\n   58  \\setcounter{figure}{0}\n   59  \\setcounter{lofdepth}{1}\n   60: \\setcounter{table}{0}\n   61  \\setcounter{lotdepth}{1}\n   62  \\setcounter{draft}{0}\n   63  \\setcounter{bibliosel}{0}\n   64  \\setcounter{parentequation}{0}\n   65: \\setcounter{LT@tables}{1}\n   66  \\setcounter{LT@chunks}{5}\n   67  \\setcounter{nlinenum}{0}\n   ..\n   74  \\setcounter{ContinuedFloat}{0}\n   75  \\setcounter{subfigure}{0}\n   76: \\setcounter{subtable}{0}\n   77  \\setcounter{totalcount@figure}{20}\n   78: \\setcounter{totalcount@table}{5}\n   79  \\setcounter{FBLTpage}{3}\n   80  \\setcounter{FancyVerbLine}{0}\n   ..\n   99  \\setcounter{citenum@totc}{18}\n  100  \\setcounter{totalcount@figure@totc}{22}\n  101: \\setcounter{totalcount@table@totc}{8}\n  102  \\setcounter{TotPages@totc}{66}\n  103  \\setcounter{section@level}{2}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\contents.aux:\n   56  \\setcounter{figure}{0}\n   57  \\setcounter{lofdepth}{1}\n   58: \\setcounter{table}{0}\n   59  \\setcounter{lotdepth}{1}\n   60  \\setcounter{draft}{0}\n   61  \\setcounter{bibliosel}{0}\n   62  \\setcounter{parentequation}{0}\n   63: \\setcounter{LT@tables}{0}\n   64  \\setcounter{LT@chunks}{0}\n   65  \\setcounter{nlinenum}{0}\n   ..\n   72  \\setcounter{ContinuedFloat}{0}\n   73  \\setcounter{subfigure}{0}\n   74: \\setcounter{subtable}{0}\n   75  \\setcounter{totalcount@figure}{0}\n   76: \\setcounter{totalcount@table}{0}\n   77  \\setcounter{FBLTpage}{0}\n   78  \\setcounter{FancyVerbLine}{0}\n   ..\n   97  \\setcounter{citenum@totc}{18}\n   98  \\setcounter{totalcount@figure@totc}{22}\n   99: \\setcounter{totalcount@table@totc}{8}\n  100  \\setcounter{TotPages@totc}{66}\n  101  \\setcounter{section@level}{0}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\contents.tex:\n    1  % Оглавление (ГОСТ Р 7.0.11-2011, 5.2)\n    2  \\ifdefmacro{\\microtypesetup}{\\microtypesetup{protrusion=false}}{} % не рекомендуется применять пакет микротипографики к автоматически генерируемому оглавлению\n    3: \\tableofcontents*\n    4  \\addtocontents{toc}{\\protect\\tocheader}\n    5  \\endTOCtrue\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\disstyles.tex:\n  167  }{}\n  168  \\ifnumequal{\\value{contnumtab}}{1}{%\n  169:     \\counterwithout{table}{chapter}    % Убираем связанность номера таблицы с номером главы/раздела\n  170  }{}\n  171  \n  ...\n  196  %% регистрируем счётчики в системе totcounter\n  197      \\regtotcounter{totalcount@figure}\n  198:     \\regtotcounter{totalcount@table}       % Если иным способом поставить в преамбуле то ошибка в числе таблиц\n  199      \\regtotcounter{TotPages}               % Если иным способом поставить в преамбуле то ошибка в числе страниц\n  200  }\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\introduction.aux:\n   62  \\setcounter{figure}{0}\n   63  \\setcounter{lofdepth}{1}\n   64: \\setcounter{table}{0}\n   65  \\setcounter{lotdepth}{1}\n   66  \\setcounter{draft}{0}\n   67  \\setcounter{bibliosel}{0}\n   68  \\setcounter{parentequation}{0}\n   69: \\setcounter{LT@tables}{0}\n   70  \\setcounter{LT@chunks}{0}\n   71  \\setcounter{nlinenum}{0}\n   ..\n   78  \\setcounter{ContinuedFloat}{0}\n   79  \\setcounter{subfigure}{0}\n   80: \\setcounter{subtable}{0}\n   81  \\setcounter{totalcount@figure}{0}\n   82: \\setcounter{totalcount@table}{0}\n   83  \\setcounter{FBLTpage}{0}\n   84  \\setcounter{FancyVerbLine}{0}\n   ..\n  103  \\setcounter{citenum@totc}{18}\n  104  \\setcounter{totalcount@figure@totc}{22}\n  105: \\setcounter{totalcount@table@totc}{8}\n  106  \\setcounter{TotPages@totc}{66}\n  107  \\setcounter{section@level}{0}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\introduction.tex:\n   19  \\textbf{Объем и структура работы.} Диссертация состоит из~введения, четырёх глав, заключения и~двух приложений.\n   20  %% на случай ошибок оставляю исходный кусок на месте, закомментированным\n   21: %Полный объём диссертации составляет  \\ref*{TotPages}~страницу с~\\totalfigures{}~рисунками и~\\totaltables{}~таблицами. Список литературы содержит \\total{citenum}~наименований.\n   22  %\n   23  Полный объём диссертации составляет\n   24  \\formbytotal{TotPages}{страниц}{у}{ы}{}, включая\n   25  \\formbytotal{totalcount@figure}{рисун}{ок}{ка}{ков} и\n   26: \\formbytotal{totalcount@table}{таблиц}{у}{ы}{}.   Список литературы содержит  \n   27  \\formbytotal{citenum}{наименован}{ие}{ия}{ий}.\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\lists.tex:\n    6  % (ГОСТ Р 7.0.11-2011, 5.3.10)\n    7  \\clearpage\n    8: \\listoftables   % Список таблиц\n    9  \\ifdefmacro{\\microtypesetup}{\\microtypesetup{protrusion=true}}{}\n   10  \\newpage\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part1.aux:\n   22  \\newlabel{img:MetodsControl}{{\\M@TitleReference {1.1}{Методы контроля силовых параметров\\relax }}{11}{Методы контроля силовых параметров\\relax }{figure.caption.2}{}}\n   23  \\newlabel{img:MetodsControl@cref}{{[figure][1][1]1.1}{11}}\n   24: \\@writefile{lot}{\\contentsline {table}{\\numberline {1.1}{\\ignorespaces Сравнение способов измерения усилия\\relax }}{12}{table.caption.3}}\n   25: \\newlabel{tbl:SposobIzm}{{\\M@TitleReference {1.1}{Сравнение способов измерения усилия\\relax }}{12}{Сравнение способов измерения усилия\\relax }{table.caption.3}{}}\n   26: \\newlabel{tbl:SposobIzm@cref}{{[table][1][1]1.1}{12}}\n   27: \\@writefile{lot}{\\contentsline {table}{\\numberline {1.2}{\\ignorespaces Сравнение чувствительных элементов\\relax }}{13}{table.caption.4}}\n   28: \\newlabel{tbl:SensItem}{{\\M@TitleReference {1.2}{Сравнение чувствительных элементов\\relax }}{13}{Сравнение чувствительных элементов\\relax }{table.caption.4}{}}\n   29: \\newlabel{tbl:SensItem@cref}{{[table][2][1]1.2}{13}}\n   30  \\@writefile{toc}{\\contentsline {section}{\\numberline {1.5}Основные выводы и задачи исследований}{13}{section.1.5}}\n   31  \\newlabel{sect1_4}{{\\M@TitleReference {1.5}{Основные выводы и задачи исследований}}{13}{Основные выводы и задачи исследований}{section.1.5}{}}\n   ..\n   85  \\setcounter{figure}{1}\n   86  \\setcounter{lofdepth}{1}\n   87: \\setcounter{table}{2}\n   88  \\setcounter{lotdepth}{1}\n   89  \\setcounter{draft}{0}\n   90  \\setcounter{bibliosel}{0}\n   91  \\setcounter{parentequation}{0}\n   92: \\setcounter{LT@tables}{0}\n   93  \\setcounter{LT@chunks}{0}\n   94  \\setcounter{nlinenum}{0}\n   ..\n  101  \\setcounter{ContinuedFloat}{0}\n  102  \\setcounter{subfigure}{0}\n  103: \\setcounter{subtable}{0}\n  104  \\setcounter{totalcount@figure}{0}\n  105: \\setcounter{totalcount@table}{0}\n  106  \\setcounter{FBLTpage}{0}\n  107  \\setcounter{FancyVerbLine}{0}\n  ...\n  126  \\setcounter{citenum@totc}{18}\n  127  \\setcounter{totalcount@figure@totc}{22}\n  128: \\setcounter{totalcount@table@totc}{8}\n  129  \\setcounter{TotPages@totc}{66}\n  130  \\setcounter{section@level}{1}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part1.tex:\n   69  \\end{itemize}\n   70  \n   71: \\begin{table} [htbp]\n   72  \t\\centering\n   73  \t%\\captionsetup{width=17cm}\n   ..\n   90  \t\t\\hline\n   91  \t\\end{tabular}\n   92: \\end{table}\n   93  \n   94  \\todo{Расписать то что представлено в таблицах}\n   ..\n   96  \\renewcommand\\tabularxcolumn[1]{>{\\centering}m{#1}}\n   97  \n   98: \\begin{table} [ht]%\n   99  \t\\centering\n  100  \t\\caption{Сравнение чувствительных элементов}%\n  ...\n  116  \t\t\\hline\n  117  \t\\end{tabularx}\t\n  118: \\end{table}\n  119  \n  120  \\section{Основные выводы и задачи исследований}  \\label{sect1_4}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part2.aux:\n   24  \\newlabel{eq:var}{{\\M@TitleReference {2.4}{Планирование эксперимента}}{17}{Планирование эксперимента}{equation.2.2.4}{}}\n   25  \\newlabel{eq:var@cref}{{[equation][4][2]2.4}{17}}\n   26: \\@writefile{lot}{\\contentsline {table}{\\numberline {2.1}{\\ignorespaces Определение количества опытов с надежностью 0,95\\relax }}{18}{table.caption.6}}\n   27: \\newlabel{tbl:NOpitov}{{\\M@TitleReference {2.1}{Определение количества опытов с надежностью 0,95\\relax }}{18}{Определение количества опытов с надежностью 0,95\\relax }{table.caption.6}{}}\n   28: \\newlabel{tbl:NOpitov@cref}{{[table][1][2]2.1}{18}}\n   29  \\@writefile{toc}{\\contentsline {section}{\\numberline {2.3}Механизированный лабораторный стенд}{18}{section.2.3}}\n   30  \\newlabel{Chapt:Experiment:Stend}{{\\M@TitleReference {2.3}{Механизированный лабораторный стенд}}{18}{Механизированный лабораторный стенд}{section.2.3}{}}\n   ..\n   62  \\newlabel{img:CalibrationRawHor}{{\\M@TitleReference {2.6}{Графики переходных процессов при тарировании горизонтальной составляющей усилия резания\\relax }}{25}{Графики переходных процессов при тарировании горизонтальной составляющей усилия резания\\relax }{figure.caption.11}{}}\n   63  \\newlabel{img:CalibrationRawHor@cref}{{[figure][6][2]2.6}{25}}\n   64: \\@writefile{lot}{\\contentsline {table}{\\numberline {2.2}{\\ignorespaces Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования горизонтальной составляющей усиля резания\\relax }}{26}{table.caption.12}}\n   65: \\newlabel{tab:DCHor}{{\\M@TitleReference {2.2}{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования горизонтальной составляющей усиля резания\\relax }}{26}{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования горизонтальной составляющей усиля резания\\relax }{table.caption.12}{}}\n   66: \\newlabel{tab:DCHor@cref}{{[table][2][2]2.2}{26}}\n   67  \\newlabel{eq:TrendHor}{{\\M@TitleReference {2.5}{Тарирование тензометрического звена}}{26}{Тарирование тензометрического звена}{equation.2.5.5}{}}\n   68  \\newlabel{eq:TrendHor@cref}{{[equation][5][2]2.5}{26}}\n   ..\n  128  \\setcounter{figure}{7}\n  129  \\setcounter{lofdepth}{1}\n  130: \\setcounter{table}{2}\n  131  \\setcounter{lotdepth}{1}\n  132  \\setcounter{draft}{0}\n  133  \\setcounter{bibliosel}{0}\n  134  \\setcounter{parentequation}{0}\n  135: \\setcounter{LT@tables}{0}\n  136  \\setcounter{LT@chunks}{0}\n  137  \\setcounter{nlinenum}{0}\n  ...\n  144  \\setcounter{ContinuedFloat}{0}\n  145  \\setcounter{subfigure}{0}\n  146: \\setcounter{subtable}{0}\n  147  \\setcounter{totalcount@figure}{1}\n  148: \\setcounter{totalcount@table}{2}\n  149  \\setcounter{FBLTpage}{0}\n  150  \\setcounter{FancyVerbLine}{0}\n  ...\n  169  \\setcounter{citenum@totc}{18}\n  170  \\setcounter{totalcount@figure@totc}{22}\n  171: \\setcounter{totalcount@table@totc}{8}\n  172  \\setcounter{TotPages@totc}{66}\n  173  \\setcounter{section@level}{1}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part2.tex:\n   88  \n   89  \n   90: \\begin{table} [htbp]%\n   91  \t\\centering\n   92  \t\\caption{Определение количества опытов с надежностью 0,95}%\n   ..\n  110  \t\t\\hline\n  111  \t\\end{tabularx}%\n  112: \\end{table}\n  113  \n  114  Для уточнения числа опытов при каждой комбинации факторов следует предварительно провести 20 опытов при неизменных параметрах режима резания.\n  ...\n  241  Для сопоставления значения напряжения приложенному усилию исходные данные по блочно (один блок длительностью 2 сек.) подвергались быстрому преобразованию Фурье (БПФ) \\cite{BPF,BPFEng}. Листинг функции для программы matlab представлен в листинге \\ref{list:findDC}. Результат работы данной функции при тарировании горизонтальной составляющий усилия резания приведен в таблице \\ref{tab:DCHor}. Для остальных составляющих результаты можно посмотреть в приложении \\ref{Appendix:Calibration:DC}.\n  242  \n  243: \\input{Dissertation/tables/DCHor}\n  244  \n  245  Благодаря данным результатам удалось построить графическую зависимость (рисунок \\ref{img:Calibration}) составляющих силы, прилагаемой к тензометрическому звену от напряжения выдаваемого тензометрическим усилителем. \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part3.aux:\n   86  \\newlabel{eq:Error}{{\\M@TitleReference {3.8}{Усреднение данных повторных опытов}}{39}{Усреднение данных повторных опытов}{equation.3.3.8}{}}\n   87  \\newlabel{eq:Error@cref}{{[equation][8][3]3.8}{39}}\n   88: \\@writefile{lot}{\\contentsline {table}{\\numberline {3.1}{\\ignorespaces Действующие значения горизонтальной составляющей усилия сопротивления резанию\\relax }}{39}{table.3.1}}\n   89: \\newlabel{tab:RezD}{{\\M@TitleReference {3.1}{Усреднение данных повторных опытов}}{39}{Действующие значения горизонтальной составляющей усилия сопротивления резанию\\relax }{table.3.1}{}}\n   90: \\newlabel{tab:RezD@cref}{{[table][1][3]3.1}{39}}\n   91  \\gdef \\FBLTpage@i {\\gdef\\flrow@LTlastpage{2}}\n   92  \\@writefile{toc}{\\contentsline {section}{\\numberline {3.4}Анализ осколков}{40}{section.3.4}}\n   ..\n  194  \\setcounter{figure}{12}\n  195  \\setcounter{lofdepth}{1}\n  196: \\setcounter{table}{1}\n  197  \\setcounter{lotdepth}{1}\n  198  \\setcounter{draft}{0}\n  199  \\setcounter{bibliosel}{0}\n  200  \\setcounter{parentequation}{0}\n  201: \\setcounter{LT@tables}{1}\n  202  \\setcounter{LT@chunks}{5}\n  203  \\setcounter{nlinenum}{0}\n  ...\n  210  \\setcounter{ContinuedFloat}{0}\n  211  \\setcounter{subfigure}{5}\n  212: \\setcounter{subtable}{0}\n  213  \\setcounter{totalcount@figure}{8}\n  214: \\setcounter{totalcount@table}{4}\n  215  \\setcounter{FBLTpage}{3}\n  216  \\setcounter{FancyVerbLine}{0}\n  ...\n  235  \\setcounter{citenum@totc}{18}\n  236  \\setcounter{totalcount@figure@totc}{22}\n  237: \\setcounter{totalcount@table@totc}{8}\n  238  \\setcounter{TotPages@totc}{66}\n  239  \\setcounter{section@level}{1}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part3.tex:\n  231  \\newcommand{\\lline}[1]{\\hline\\multicolumn{#1}{c}{}\\\\[-1.3em]\\hline}\n  232  \\newcommand{\\cc}[1]{\\multicolumn{1}{c|}{#1}}\n  233: \\begin{longtable}[c]{|m{5cm}|m{2cm}|m{2cm}|m{2cm}|m{2cm}|m{2cm}|}\n  234  \t\\caption{Действующие значения горизонтальной составляющей усилия сопротивления резанию}\n  235  \t\\label{tab:RezD}\n  ...\n  241  \t\\lline{6}\n  242  \t\\endfirsthead\n  243: \t\\captionsetup{format=tablenocaption,labelformat=continued}\n  244  \t\\caption[]{}\\\\\n  245  \t\\hline\n  ...\n  260  \tТочечная оценка $ \\hat{F_\\textit{Д}} $ &  \\todo{0} &  \\todo{0} &  \\todo{0} &  \\todo{0} &  \\todo{0} \\tabularnewline\n  261  \t{Относительная\\par погрешность} $ \\varepsilon $ &  \\todo{0} &  \\todo{0} &  \\todo{0} &  \\todo{0} &  \\todo{0} \\tabularnewline\n  262: \\end{longtable}\n  263  \n  264  Таким образом мы получим набор точек в пространстве, для каждой составляющей силы сопротивления резанию. Такой набор точек говорит что мы имеем некую зависимую от двух переменных функцию. Первая переменная это шаг резания, вторая радиус закругления рабочей кромки. С помощью регрессионного анализа может быть получена аппроксимирующая функция для этого набора точек, которая и будет использоваться в дальнейшем.\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part3_help.tex:\n    5  Так размещается таблица:\n    6  \n    7: \\begin{table} [htbp]\n    8    \\centering\n    9    \\captionsetup{width=15cm}\n   ..\n   20    \\hline\n   21    \\end{tabular}\n   22: \\end{table}\n   23  \n   24: \\begin{table} [htbp]% Пример записи таблицы с номером, но без отображаемого наименования\n   25  \t\\centering\n   26  \t\\parbox{9cm}{% чтобы лучше смотрелось, подбирается самостоятельно\n   27:         \\captionsetup{format=tablenocaption}% должен стоять до самого caption\n   28          \\caption{}%\n   29          \\label{tbl:test1}%\n   ..\n   39      \t\\end{SingleSpace}\n   40  \t}\n   41: \\end{table}\n   42  \n   43  Таблица \\ref{tbl:test2} \"--- пример таблицы, оформленной в~классическом книжном варианте или~очень близко к~нему. \\mbox{ГОСТу} по~сути не~противоречит. Можно ещё~улучшить представление, с~помощью пакета \\verb|siunitx| или~подобного.\n   44  \n   45: \\begin{table} [htbp]%\n   46      \\centering\n   47  \t\\caption{Наименование таблицы, очень длинное наименование таблицы, чтобы посмотреть как оно будет располагаться на~нескольких строках и~переноситься}%\n   ..\n   60  \t\\end{tabular}%\n   61     \t\\end{SingleSpace}\n   62: \\end{table}\n   63  \n   64  \\section{Таблица с многострочными ячейками и примечанием}\n   65  \n   66  Таблицы \\ref{tbl:test3} и \\ref{tbl:test4} \"--- пример реализации расположения примечания в соответствии с ГОСТ 2.105. Каждый вариант со своими достоинствами и недостатками. Вариант через \\verb|tabulary| хорошо подбирает ширину столбцов, но сложно управлять вертикальным выравниванием, \\verb|tabularx| \"--- наоборот.\n   67: \\begin{table} [ht]%\n   68  \t\\caption{Нэ про натюм фюйзчыт квюальизквюэ}%\n   69  \t\\label{tbl:test3}% label всегда желательно идти после caption\n   ..\n  113  \t\\end{tabulary}%\n  114      \\end{SingleSpace}\n  115: \\end{table}\n  116  \n  117  Из-за того, что таблица \\ref{tbl:test3} не помещается на той же странице (при компилировании pdflatex), всё её содержимое переносится на следующую, ближайшую, а этот текст идёт перед ней.\n  118: \\begin{table} [ht]%\n  119  \t\\caption{Любя, съешь щипцы, \"--- вздохнёт мэр, \"--- кайф жгуч}%\n  120  \t\\label{tbl:test4}% label всегда желательно идти после caption\n  ...\n  162          \\bottomrule %%% нижняя линейка\n  163  \t\\end{tabularx}%\n  164: \\end{table}\n  165  \n  166  %\\newpage\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part4.aux:\n   64  \\setcounter{figure}{0}\n   65  \\setcounter{lofdepth}{1}\n   66: \\setcounter{table}{0}\n   67  \\setcounter{lotdepth}{1}\n   68  \\setcounter{draft}{0}\n   69  \\setcounter{bibliosel}{0}\n   70  \\setcounter{parentequation}{0}\n   71: \\setcounter{LT@tables}{1}\n   72  \\setcounter{LT@chunks}{5}\n   73  \\setcounter{nlinenum}{0}\n   ..\n   80  \\setcounter{ContinuedFloat}{0}\n   81  \\setcounter{subfigure}{0}\n   82: \\setcounter{subtable}{0}\n   83  \\setcounter{totalcount@figure}{20}\n   84: \\setcounter{totalcount@table}{5}\n   85  \\setcounter{FBLTpage}{3}\n   86  \\setcounter{FancyVerbLine}{0}\n   ..\n  105  \\setcounter{citenum@totc}{18}\n  106  \\setcounter{totalcount@figure@totc}{22}\n  107: \\setcounter{totalcount@table@totc}{8}\n  108  \\setcounter{TotPages@totc}{66}\n  109  \\setcounter{section@level}{1}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\part5.aux:\n   64  \\setcounter{figure}{0}\n   65  \\setcounter{lofdepth}{1}\n   66: \\setcounter{table}{0}\n   67  \\setcounter{lotdepth}{1}\n   68  \\setcounter{draft}{0}\n   69  \\setcounter{bibliosel}{0}\n   70  \\setcounter{parentequation}{0}\n   71: \\setcounter{LT@tables}{1}\n   72  \\setcounter{LT@chunks}{5}\n   73  \\setcounter{nlinenum}{0}\n   ..\n   80  \\setcounter{ContinuedFloat}{0}\n   81  \\setcounter{subfigure}{0}\n   82: \\setcounter{subtable}{0}\n   83  \\setcounter{totalcount@figure}{20}\n   84: \\setcounter{totalcount@table}{5}\n   85  \\setcounter{FBLTpage}{3}\n   86  \\setcounter{FancyVerbLine}{0}\n   ..\n  105  \\setcounter{citenum@totc}{18}\n  106  \\setcounter{totalcount@figure@totc}{22}\n  107: \\setcounter{totalcount@table@totc}{8}\n  108  \\setcounter{TotPages@totc}{66}\n  109  \\setcounter{section@level}{2}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\references.aux:\n   75  \\setcounter{figure}{0}\n   76  \\setcounter{lofdepth}{1}\n   77: \\setcounter{table}{0}\n   78  \\setcounter{lotdepth}{1}\n   79  \\setcounter{draft}{0}\n   80  \\setcounter{bibliosel}{0}\n   81  \\setcounter{parentequation}{0}\n   82: \\setcounter{LT@tables}{2}\n   83  \\setcounter{LT@chunks}{1}\n   84  \\setcounter{nlinenum}{0}\n   ..\n   91  \\setcounter{ContinuedFloat}{0}\n   92  \\setcounter{subfigure}{0}\n   93: \\setcounter{subtable}{0}\n   94  \\setcounter{totalcount@figure}{20}\n   95: \\setcounter{totalcount@table}{5}\n   96  \\setcounter{FBLTpage}{2}\n   97  \\setcounter{FancyVerbLine}{0}\n   ..\n  116  \\setcounter{citenum@totc}{18}\n  117  \\setcounter{totalcount@figure@totc}{22}\n  118: \\setcounter{totalcount@table@totc}{8}\n  119  \\setcounter{TotPages@totc}{66}\n  120  \\setcounter{section@level}{2}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\tables\\DCHor.tex:\n    1: \\begin{table}[htp]\n    2  \t\\begin{center}\n    3  \t\\caption{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования горизонтальной составляющей усиля резания}\n    .\n   17  \t\t\\end{tabularx}\n   18  \t\\end{center}\n   19: \\end{table}\n   20  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\tables\\DCLat.tex:\n    1: \\begin{table}[htp]\n    2  \t\\begin{center}\n    3  \t\\caption{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования боковой составляющей усиля резания}\n    .\n   17  \t\t\\end{tabularx}\n   18  \t\\end{center}\n   19: \\end{table}\n   20  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\tables\\DCVert.tex:\n    1: \\begin{table}[htp]\n    2  \t\\begin{center}\n    3  \t\\caption{Зависимость напряжения на каналах оцифровки от приложенной силы в процессе тарирования вертикальной составляющей усиля резания}\n    .\n   17  \t\t\\end{tabularx}\n   18  \t\\end{center}\n   19: \\end{table}\n   20  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\tables\\rawHor0.tex:\n    2  \t\\centering\n    3  \t\\small\n    4: \t\\begin{longtable}[c]{|c|c|c|c|c|c|c|c|}\n    5  \t\\caption{Сырые данные}\n    6  \t\\label{tab:rawHor0}\n    .\n   11  \t\t\\hline\n   12  \t\t\\endfirsthead\n   13: \t\t\\captionsetup{format=tablenocaption,labelformat=continued}\n   14  \t\t\\caption[]{}\\\\\n   15  \t\t\\hline\n   ..\n  121  \t\t0.98 & 0 & 0 & 0 & 1.98 & 0 & 0 & 0\\tabularnewline\n  122  \t\t0.99 & 0 & -0.0025 & 0 & 1.99 & 0 & -0.0025 & 0\\tabularnewline\n  123: \t\\end{longtable}\n  124  \\normalsize\n  125  \\endgroup\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\title.aux:\n   55  \\setcounter{figure}{0}\n   56  \\setcounter{lofdepth}{1}\n   57: \\setcounter{table}{0}\n   58  \\setcounter{lotdepth}{1}\n   59  \\setcounter{draft}{0}\n   60  \\setcounter{bibliosel}{0}\n   61  \\setcounter{parentequation}{0}\n   62: \\setcounter{LT@tables}{0}\n   63  \\setcounter{LT@chunks}{0}\n   64  \\setcounter{nlinenum}{0}\n   ..\n   71  \\setcounter{ContinuedFloat}{0}\n   72  \\setcounter{subfigure}{0}\n   73: \\setcounter{subtable}{0}\n   74  \\setcounter{totalcount@figure}{0}\n   75: \\setcounter{totalcount@table}{0}\n   76  \\setcounter{FBLTpage}{0}\n   77  \\setcounter{FancyVerbLine}{0}\n   ..\n   96  \\setcounter{citenum@totc}{18}\n   97  \\setcounter{totalcount@figure@totc}{22}\n   98: \\setcounter{totalcount@table@totc}{8}\n   99  \\setcounter{TotPages@totc}{66}\n  100  \\setcounter{section@level}{0}\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\userpackages.tex:\n    2  \\providecommand{\\e}[1]{\\ensuremath{\\cdot 10^{#1}}}\n    3  \\usepackage{amsmath} % needed for pmatrix\n    4: \\usepackage{booktabs} % Fancy tables\n    5: \\usepackage{caption} % Fixes spacing between caption and table\n    6  \n    7  \\usepackage{tabu, tabulary}  %таблицы с автоматически подбирающейся шириной столбцов\n    8: \\usepackage{fr-longtable}    %ради \\endlasthead\n    9  \n   10  \n   ..\n   35  % working copy. In our example case, you should end up with a file called\n   36  % ~/compsci/.git/hooks/post-checkout\n   37: % 3. If you’re using a unix-like system, don’t forget to make the file executable.\n   38  % Just how you do this is outside the scope of this manual, but one\n   39  % possible way is with commands such as this:\n   40  % chmod g+x post-checkout.\n   41: % 4. Test your setup with “git checkout master” (or another suitable branch\n   42  % name). This should generate copies of gitHeadInfo.gin in the directories\n   43  % you intended.\n   ..\n   45  % calling them post-commit and post-merge, and you’re done. As before,\n   46  % users of unix-like systems should ensure these files are marked as\n   47: % executable.\n   48  \\ifnumequal{\\value{draft}}{1}{% Черновик\n   49     \\IfFileExists{.git/gitHeadInfo.gin}{                                        \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Dissertation\\userstyles.tex:\n   38          fail,family,fft,file,filled,find,fitted,fivenum,fix,floor,for,%\n   39          For,formals,format,formatC,formula,Fortran,forwardsolve,frame,%\n   40:         frequency,ftable,ftable2table,function,gamma,Gamma,gammaCody,%\n   41          gaussian,gc,gcinfo,gctorture,get,getenv,geterrmessage,getOption,%\n   42          getwd,gl,glm,globalenv,gnome,GNOME,graphics,gray,grep,grey,grid,%\n   ..\n   77          storage,strstrheight,stripplot,strsplit,structure,strwidth,sub,%\n   78          subset,substitute,substr,substring,sum,summary,sunflowerplot,svd,%\n   79:         sweep,switch,symbol,symbols,symnum,sys,status,system,t,table,%\n   80          tabulate,tan,tanh,tapply,tempfile,terms,terrain,tetragamma,text,%\n   81          time,title,topo,trace,traceback,transform,tri,trigamma,trunc,try,%\n   ..\n  232  \n  233  \\captionsetup[ListingEnv]{\n  234:     format=tablecaption,\n  235      labelsep=space,                 % Точка после номера листинга задается значением period\n  236      singlelinecheck=off,\n  ...\n  239  \n  240  \\captionsetup[lstlisting]{\n  241:     format=tablecaption,\n  242      labelsep=space,                 % Точка после номера листинга задается значением period\n  243      singlelinecheck=off,\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Documents\\GOST 2.105-95.docx:\n    <binary>\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\listings\\run_analysis.R:\n   76              summarise_each(funs(mean))\n   77  \n   78: write.table(tidydata, \"tidydata.txt\", row.names=FALSE)\n   79  \n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\synopsis.run.xml:\n   32    >\n   33    <!ATTLIST provides\n   34:     type (static | dynamic | editable) #REQUIRED\n   35    >\n   36    <!ATTLIST requires\n   37:     type (static | dynamic | editable) #REQUIRED\n   38    >\n   39    <!ATTLIST file\n   ..\n   85        <file>synopsis.bcf</file>\n   86      </requires>\n   87:     <requires type=\"editable\">\n   88        <file>biblio/othercites.bib</file>\n   89        <file>biblio/authorpapersVAK.bib</file>\n\nF:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX\\Synopsis\\synstyles.tex:\n   39  \n   40  %%% Подписи %%%\n   41: \\captionsetup[table]{skip=0pt}\n   42  \n   43  %%% Отступы у плавающих блоков %%%\n\n242 matches across 43 files\n",
+			"settings":
+			{
+				"buffer_size": 45998,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Traditional"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Traditional"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "snt:en",
+		"selected_items":
+		[
+			[
+				"snt:en",
+				"Snippet: Wrap Environment Around Selected Text"
+			],
+			[
+				"snpt:fi",
+				"Snippet: figure"
+			],
+			[
+				"ali",
+				"AlignTab"
+			],
+			[
+				"snippet :ta",
+				"Snippet: New table"
+			],
+			[
+				"snippet ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"snippet en",
+				"Snippet: Wrap Environment Around Selected Text"
+			],
+			[
+				"package re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"snippet: iti",
+				"Snippet: Itemize"
+			],
+			[
+				"snipar",
+				"Snippet: New Article"
+			],
+			[
+				"snippet:la",
+				"Snippet: Insert a LaTeX environment"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"select",
+				"UI: Select Color Scheme"
+			],
+			[
+				"select the",
+				"UI: Select Theme"
+			],
+			[
+				"Snippet: ita",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"Snippet: it",
+				"Snippet: Italic Shape Text"
+			],
+			[
+				"pc ip",
+				"Package Control: Install Package"
+			],
+			[
+				"al",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"pa ip",
+				"Package Control: Install Package"
+			],
+			[
+				"cpi",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: sub",
+				"Snippet: Sub Section"
+			],
+			[
+				"Snippet: pdf",
+				"Snippet: LaTeXing Option PDF Name"
+			],
+			[
+				"Snippet: ",
+				"Snippet: LaTeXing Option Root File"
+			],
+			[
+				"Snippet: tex",
+				"Snippet: Wrap selection in LaTeX command"
+			],
+			[
+				"Snippet: ad",
+				"Snippet: LaTeXing Option Dictionary"
+			],
+			[
+				"Snippet: fig",
+				"Snippet: figure"
+			],
+			[
+				"Snippet: figu",
+				"Snippet: Figure"
+			],
+			[
+				"p c i p",
+				"Package Control: Install Package"
+			],
+			[
+				"pa ad re",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"paka",
+				"Package Control: Install Package"
+			],
+			[
+				"undo",
+				"Code Folding: Unfold All"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"PCI",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 308.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sunlime.log_commands(True)",
+			"clear",
+			"clc",
+			"fm_create",
+			"ubdo"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/GSM Глушилки",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/GSM Глушилки/outfiles"
+	],
+	"file_history":
+	[
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/article.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/GSM Глушилки/outfiles/GMS Jammers.log",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/GSM Глушилки/images/BS.png",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/part3.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/GSM Глушилки/GSM Глушилки.sublime-project",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/snippets/wrapper/command.sublime-snippet",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/snippets/wrapper/environment.sublime-snippet",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/Default.sublime-keymap",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/Default (Windows).sublime-keymap",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/LaTeX.sublime-build",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Installed Packages/LaTeX-cwl.sublime-package",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools (Advanced).sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/GSM Глушилки/biblatex.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/GSM Глушилки/article.tex",
+		"/C/12/A04A80390B653002.msg",
+		"/F/Documents AntLer/DBeFarmaЦентр/AddIn/vssver.scc",
+		"/C/12/main_01.hdr",
+		"/C/12/main.hdr",
+		"/C/Users/Антон/AppData/Local/Temp/_tc/Канал kuplinov только что начал трансляцию на Twitch",
+		"/C/12/A04A80390B653003.msg",
+		"/C/.rnd",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/Статья.sublime-project",
+		"/F/Downloads/ss_59e5928c9994d4.92341444.vcf/0.vcf",
+		"/F/Downloads/new 1.vcf",
+		"/F/Downloads/contacts.vcf",
+		"/F/Downloads/contacts (1).vcf",
+		"/F/Downloads/ss_59e575c519eb70.37715601.vcf/0.vcf",
+		"/F/Downloads/contactsG/Алексей Викторович Сумин.vcf",
+		"/f/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/othercites.bib",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/snippets/wrapper/textit.sublime-snippet",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/snippets/xdata.biblatex-snippet",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/images/SignalRaw.png",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/othercites.bib",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/outfiles/ResultsOfTheExperiment_1.fls",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/outfiles/ResultsOfTheExperiment_1.log",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/ResultsOfTheExperiment.log",
+		"/C/Users/Антон/Desktop/Статья.sublime-project",
+		"/F/Downloads/438348-08.xml",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/setupXETEX.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/title.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/renames.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/newnames.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/setup.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/disstyles.tex",
+		"/C/texlive/2017/texmf-dist/doc/latex/disser/templates-utf8/candidate/thesis.tex",
+		"/C/texlive/2017/texmf-dist/doc/latex/disser/templates-utf8/specialist/thesis.tex",
+		"/F/Downloads/1.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/userpackages.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/dispackages.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/packages.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/setup.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/styles_KUZGTU.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/biblatex.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/Article.pdf",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/images/DropGrossError.png",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/User/syntax_fold.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/SyntaxFold/syntax_fold.sublime-settings",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/jumpToPDF.py",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/viewers/sumatra_viewer.py",
+		"/F/Documents",
+		"/C/Program Files/SumatraPDF/AntLer/GDrive/Dissertation/Статьи/2017/в",
+		"/C/Program Files/SumatraPDF/процессе/результаты",
+		"/C/Program Files/SumatraPDF/эксперимента/article.tex",
+		"/C/Program Files/Sublime Text 3/%f",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/part2.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/dissertation.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/part1.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/tables/DCHor.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/appendix.tex",
+		"/F/Downloads/424389-08.xml",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/userstyles.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/common/styles.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/acronyms.tex",
+		"/C/Users/Антон/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/F/Documents AntLer/GDrive/Dissertation/Статьи/2017/в процессе/результаты эксперимента/setup.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/dissertation1.tex",
+		"/F/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/Dissertation/part3.aux",
+		"/F/Program Files (x86)/Steam/steamapps/common/Kerbal Space Program/Ships/Script/boot/automat.ks",
+		"/F/Program Files (x86)/Steam/steamapps/common/Kerbal Space Program/Ships/Script/boot/testRoket.ks",
+		"/C/Users/Антон/AppData/Roaming/MiKTeX/2.9/tex/latex/beamer/themes/theme/beamerthemePittsburgh.sty"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 111.0,
+		"where_history":
+		[
+			"F:\\Documents AntLer\\GDrive\\Dissertation\\Dissertation-LaTeX",
+			"C:\\Users\\Антон\\AppData\\Roaming\\Sublime Text 3\\",
+			"C:\\Users\\Антон\\AppData\\Roaming\\Sublime Text 3",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"f@size",
+			"12",
+			"table",
+			"tablecaption",
+			"table",
+			"табли",
+			"\t",
+			"\"contents\": \"``$0''\"",
+			"\"contents\": \"``${0:$SELECTION}''\"",
+			"\"contents\": \"``$0''\"",
+			"insert_snippet {\"contents\": \"``$0''\"}",
+			"quotes",
+			"–",
+			"img:",
+			"dri",
+			"множества",
+			"создания",
+			"нагрузочные",
+			"warning"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&",
+			"\"---",
+			"fig:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "article.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1454,
+								1454
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1584,
+										1592
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1273,
+										1281
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "setupXETEX.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1107,
+								1118
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1118,
+										1119
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1106,
+										1107
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles_KUZGTU.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45998,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										222,
+										227
+									],
+									[
+										497,
+										502
+									],
+									[
+										717,
+										722
+									],
+									[
+										1405,
+										1410
+									],
+									[
+										1537,
+										1542
+									],
+									[
+										1834,
+										1839
+									],
+									[
+										1894,
+										1899
+									],
+									[
+										2107,
+										2112
+									],
+									[
+										2321,
+										2326
+									],
+									[
+										2460,
+										2465
+									],
+									[
+										2566,
+										2571
+									],
+									[
+										2580,
+										2585
+									],
+									[
+										2931,
+										2936
+									],
+									[
+										3184,
+										3189
+									],
+									[
+										3233,
+										3238
+									],
+									[
+										3270,
+										3275
+									],
+									[
+										3701,
+										3706
+									],
+									[
+										3793,
+										3798
+									],
+									[
+										3885,
+										3890
+									],
+									[
+										3978,
+										3983
+									],
+									[
+										4537,
+										4542
+									],
+									[
+										5152,
+										5157
+									],
+									[
+										5742,
+										5747
+									],
+									[
+										5812,
+										5817
+									],
+									[
+										6182,
+										6187
+									],
+									[
+										6258,
+										6263
+									],
+									[
+										6549,
+										6554
+									],
+									[
+										6592,
+										6597
+									],
+									[
+										6838,
+										6843
+									],
+									[
+										6883,
+										6888
+									],
+									[
+										6928,
+										6933
+									],
+									[
+										6971,
+										6976
+									],
+									[
+										7014,
+										7019
+									],
+									[
+										7058,
+										7063
+									],
+									[
+										7364,
+										7369
+									],
+									[
+										7518,
+										7523
+									],
+									[
+										7692,
+										7697
+									],
+									[
+										7754,
+										7759
+									],
+									[
+										7784,
+										7789
+									],
+									[
+										7816,
+										7821
+									],
+									[
+										8084,
+										8089
+									],
+									[
+										8225,
+										8230
+									],
+									[
+										8255,
+										8260
+									],
+									[
+										8289,
+										8294
+									],
+									[
+										8429,
+										8434
+									],
+									[
+										8642,
+										8647
+									],
+									[
+										8846,
+										8851
+									],
+									[
+										8995,
+										9000
+									],
+									[
+										9201,
+										9206
+									],
+									[
+										9429,
+										9434
+									],
+									[
+										9586,
+										9591
+									],
+									[
+										9677,
+										9682
+									],
+									[
+										9710,
+										9715
+									],
+									[
+										9768,
+										9773
+									],
+									[
+										9922,
+										9927
+									],
+									[
+										10082,
+										10087
+									],
+									[
+										10159,
+										10164
+									],
+									[
+										10301,
+										10306
+									],
+									[
+										10368,
+										10373
+									],
+									[
+										10445,
+										10450
+									],
+									[
+										10565,
+										10570
+									],
+									[
+										10643,
+										10648
+									],
+									[
+										10997,
+										11002
+									],
+									[
+										11161,
+										11166
+									],
+									[
+										11336,
+										11341
+									],
+									[
+										11418,
+										11423
+									],
+									[
+										11617,
+										11622
+									],
+									[
+										11942,
+										11947
+									],
+									[
+										12434,
+										12439
+									],
+									[
+										13033,
+										13038
+									],
+									[
+										13238,
+										13243
+									],
+									[
+										13330,
+										13335
+									],
+									[
+										13395,
+										13400
+									],
+									[
+										13545,
+										13550
+									],
+									[
+										13596,
+										13601
+									],
+									[
+										14066,
+										14071
+									],
+									[
+										14240,
+										14245
+									],
+									[
+										14577,
+										14582
+									],
+									[
+										14633,
+										14638
+									],
+									[
+										14705,
+										14710
+									],
+									[
+										14884,
+										14889
+									],
+									[
+										15232,
+										15237
+									],
+									[
+										15289,
+										15294
+									],
+									[
+										15705,
+										15710
+									],
+									[
+										15869,
+										15874
+									],
+									[
+										16045,
+										16050
+									],
+									[
+										16127,
+										16132
+									],
+									[
+										16326,
+										16331
+									],
+									[
+										16631,
+										16636
+									],
+									[
+										16673,
+										16678
+									],
+									[
+										16852,
+										16857
+									],
+									[
+										16893,
+										16898
+									],
+									[
+										17290,
+										17295
+									],
+									[
+										17542,
+										17547
+									],
+									[
+										17569,
+										17574
+									],
+									[
+										17827,
+										17832
+									],
+									[
+										17959,
+										17964
+									],
+									[
+										18250,
+										18255
+									],
+									[
+										18490,
+										18495
+									],
+									[
+										18848,
+										18853
+									],
+									[
+										19100,
+										19105
+									],
+									[
+										19127,
+										19132
+									],
+									[
+										19385,
+										19390
+									],
+									[
+										19517,
+										19522
+									],
+									[
+										19817,
+										19822
+									],
+									[
+										20041,
+										20046
+									],
+									[
+										20286,
+										20291
+									],
+									[
+										20450,
+										20455
+									],
+									[
+										20625,
+										20630
+									],
+									[
+										20707,
+										20712
+									],
+									[
+										20906,
+										20911
+									],
+									[
+										21164,
+										21169
+									],
+									[
+										21328,
+										21333
+									],
+									[
+										21503,
+										21508
+									],
+									[
+										21584,
+										21589
+									],
+									[
+										21783,
+										21788
+									],
+									[
+										22180,
+										22185
+									],
+									[
+										22433,
+										22438
+									],
+									[
+										22673,
+										22678
+									],
+									[
+										23054,
+										23059
+									],
+									[
+										23218,
+										23223
+									],
+									[
+										23393,
+										23398
+									],
+									[
+										23474,
+										23479
+									],
+									[
+										23673,
+										23678
+									],
+									[
+										24159,
+										24164
+									],
+									[
+										24436,
+										24441
+									],
+									[
+										24699,
+										24704
+									],
+									[
+										25174,
+										25179
+									],
+									[
+										25262,
+										25267
+									],
+									[
+										25430,
+										25435
+									],
+									[
+										25489,
+										25494
+									],
+									[
+										25550,
+										25555
+									],
+									[
+										25637,
+										25642
+									],
+									[
+										25802,
+										25807
+									],
+									[
+										25860,
+										25865
+									],
+									[
+										26241,
+										26246
+									],
+									[
+										26405,
+										26410
+									],
+									[
+										26580,
+										26585
+									],
+									[
+										26661,
+										26666
+									],
+									[
+										26860,
+										26865
+									],
+									[
+										27077,
+										27082
+									],
+									[
+										27201,
+										27206
+									],
+									[
+										27358,
+										27363
+									],
+									[
+										27502,
+										27507
+									],
+									[
+										27897,
+										27902
+									],
+									[
+										27998,
+										28003
+									],
+									[
+										28190,
+										28195
+									],
+									[
+										28247,
+										28252
+									],
+									[
+										28949,
+										28954
+									],
+									[
+										29130,
+										29135
+									],
+									[
+										29481,
+										29486
+									],
+									[
+										29537,
+										29542
+									],
+									[
+										29861,
+										29866
+									],
+									[
+										30025,
+										30030
+									],
+									[
+										30200,
+										30205
+									],
+									[
+										30281,
+										30286
+									],
+									[
+										30480,
+										30485
+									],
+									[
+										30684,
+										30689
+									],
+									[
+										30844,
+										30849
+									],
+									[
+										31546,
+										31551
+									],
+									[
+										32121,
+										32126
+									],
+									[
+										32251,
+										32256
+									],
+									[
+										32442,
+										32447
+									],
+									[
+										32490,
+										32495
+									],
+									[
+										32753,
+										32758
+									],
+									[
+										32917,
+										32922
+									],
+									[
+										33092,
+										33097
+									],
+									[
+										33173,
+										33178
+									],
+									[
+										33372,
+										33377
+									],
+									[
+										33691,
+										33696
+									],
+									[
+										33942,
+										33947
+									],
+									[
+										34295,
+										34300
+									],
+									[
+										34872,
+										34877
+									],
+									[
+										34998,
+										35003
+									],
+									[
+										35027,
+										35032
+									],
+									[
+										35238,
+										35243
+									],
+									[
+										35406,
+										35411
+									],
+									[
+										35683,
+										35688
+									],
+									[
+										35949,
+										35954
+									],
+									[
+										36374,
+										36379
+									],
+									[
+										36581,
+										36586
+									],
+									[
+										36805,
+										36810
+									],
+									[
+										37048,
+										37053
+									],
+									[
+										37245,
+										37250
+									],
+									[
+										37409,
+										37414
+									],
+									[
+										37584,
+										37589
+									],
+									[
+										37666,
+										37671
+									],
+									[
+										37865,
+										37870
+									],
+									[
+										38120,
+										38125
+									],
+									[
+										38284,
+										38289
+									],
+									[
+										38459,
+										38464
+									],
+									[
+										38541,
+										38546
+									],
+									[
+										38740,
+										38745
+									],
+									[
+										39000,
+										39005
+									],
+									[
+										39164,
+										39169
+									],
+									[
+										39339,
+										39344
+									],
+									[
+										39421,
+										39426
+									],
+									[
+										39620,
+										39625
+									],
+									[
+										39815,
+										39820
+									],
+									[
+										40060,
+										40065
+									],
+									[
+										40180,
+										40185
+									],
+									[
+										40418,
+										40423
+									],
+									[
+										40539,
+										40544
+									],
+									[
+										40782,
+										40787
+									],
+									[
+										40943,
+										40948
+									],
+									[
+										41106,
+										41111
+									],
+									[
+										41339,
+										41344
+									],
+									[
+										41547,
+										41552
+									],
+									[
+										41711,
+										41716
+									],
+									[
+										41886,
+										41891
+									],
+									[
+										41967,
+										41972
+									],
+									[
+										42166,
+										42171
+									],
+									[
+										42491,
+										42496
+									],
+									[
+										42562,
+										42567
+									],
+									[
+										42694,
+										42699
+									],
+									[
+										42953,
+										42958
+									],
+									[
+										43192,
+										43197
+									],
+									[
+										43484,
+										43489
+									],
+									[
+										43899,
+										43904
+									],
+									[
+										43906,
+										43911
+									],
+									[
+										43912,
+										43917
+									],
+									[
+										44351,
+										44356
+									],
+									[
+										44588,
+										44593
+									],
+									[
+										44799,
+										44804
+									],
+									[
+										45199,
+										45204
+									],
+									[
+										45412,
+										45417
+									],
+									[
+										45507,
+										45512
+									],
+									[
+										45657,
+										45662
+									],
+									[
+										45902,
+										45907
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								33697,
+								33697
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										33696,
+										33697
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										33686,
+										33687
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 14982.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 44.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 296.0
+	},
+	"pinned_build_system": "",
+	"project": "GSM Глушилки.sublime-project",
+	"replace":
+	{
+		"height": 79.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\Documents AntLer\\GDrive\\Dissertation\\Статьи\\2017\\в процессе\\результаты эксперимента\\РезультатыЭксперимента.sublime-project"
+			]
+		],
+		"width": 620.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

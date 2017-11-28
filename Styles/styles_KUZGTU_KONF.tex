@@ -1,0 +1,140 @@
+\usepackage{tabularx}
+
+\renewcommand\Authfont{\small}
+\renewcommand\Authsep{, \\}
+\renewcommand\Authand{, \\}
+\renewcommand\Authands{, \\}
+
+%%% Кодировки и шрифты %%%
+\setmainlanguage[babelshorthands=true]{russian}  % Язык по-умолчанию русский с поддержкой приятных команд пакета babel
+\setotherlanguage{english}                       % Дополнительный язык = английский (в американской вариации по-умолчанию)
+\setmonofont{Courier New}
+\newfontfamily\cyrillicfonttt{Courier New}
+\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}
+\setmainfont{Times New Roman}
+\newfontfamily\cyrillicfont{Times New Roman}
+\setsansfont{Arial}
+\newfontfamily\cyrillicfontsf{Arial}
+
+%%% Размер шрифта %%%
+\renewcommand{\tiny}{\fontsize{7}{8.4pt}\selectfont}
+\renewcommand{\scriptsize}{\fontsize{9}{11pt}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{11}{13.6pt}\selectfont}
+\renewcommand{\small}{\fontsize{12}{14.5pt}\selectfont}
+\renewcommand{\normalsize}{\fontsize{14}{18pt}\selectfont}
+\renewcommand{\large}{\fontsize{17}{20pt}\selectfont}
+\renewcommand{\Large}{\fontsize{20}{25pt}\selectfont}
+\renewcommand{\LARGE}{\fontsize{25}{30pt}\selectfont}
+
+
+%%% Подписи %%%
+\captionsetup{%
+singlelinecheck=off,                % Многострочные подписи, например у таблиц
+skip=2pt,                           % Вертикальная отбивка между подписью и содержимым рисунка или таблицы определяется ключом
+justification=centering,            % Центрирование подписей, заданных командой \caption
+}
+
+%%% Рисунки %%%
+%\DeclareCaptionLabelSeparator*{emdash}{~--- }             % (ГОСТ 2.105, 4.3.1)
+\captionsetup[figure]{labelsep=period,position=bottom}
+
+%%% Таблицы %%%
+%\DeclareCaptionFormat{tablecaption}{\centering #1#2#3} 
+\captionsetup[table]{labelsep=period,position=top}                 % разделитель идентификатора с номером от наименования
+%\DeclareCaptionFormat{tablenocaption}{\tabcapalign #1\strut}    % Наименование таблицы отсутствует
+\captionsetup[table]{singlelinecheck=off,position=top,skip=0pt}  % многострочные наименования и прочее
+%\DeclareCaptionLabelFormat{table}{Таблица~#2}
+
+
+\AtBeginDocument{%
+    \setlength{\parindent}{12.5mm}                   % Абзацный отступ. Должен быть одинаковым по всему тексту и равен пяти знакам (ГОСТ Р 7.0.11-2011, 5.3.7).
+}
+
+%%% Списки %%%
+% Используем короткое тире (endash) для ненумерованных списков (ГОСТ 2.105-95, пункт 4.1.7, требует дефиса, но так лучше смотрится)
+\renewcommand{\labelitemi}{\normalfont\bfseries{--}}
+\setlist{nosep,%                                    % Единый стиль для всех списков (пакет enumitem), без дополнительных интервалов.
+    labelindent=\parindent,leftmargin=*%            % Каждый пункт, подпункт и перечисление записывают с абзацного отступа (ГОСТ 2.105-95, 4.1.8)
+}
+
+%%% Заголовки %%%
+\makeatletter
+%Section
+\renewcommand{\section}{\@startsection{section}{1}%
+{0pt}%отступ заголовка от левого поля
+{1ex}% величина вертикального отступа, оставляемого перед заголовком.
+{1ex}% величиа вертикального отступа после заголовка
+{\normalfont\bfseries}}%стиль оформления заголовка
+%subsection
+\makeatother
+\makeatletter
+\renewcommand{\subsection}{\@startsection{subsection}{2}%
+{0pt}%отступ заголовка от левого поля
+{1ex}% величина вертикального отступа, оставляемого перед заголовком.
+{1ex}% величиа вертикального отступа после заголовка
+{\normalfont\bfseries}}%стиль оформления заголовка
+\makeatother
+
+\AtBeginDocument{%
+   \def\postsection{~}% Один пробел без точки после номера секции
+   \def\postsubsection{~}
+}
+
+%%% Авторы и места %%%
+\renewcommand\Affilfont{\normalsize}
+\renewcommand\Authfont{\normalsize}
+
+%%% Заглавие статьи %%%
+\makeatletter
+    \def\@maketitle{%
+  \newpage%
+  \begin{flushleft}
+    \noindent{УДК }\udk
+  \end{flushleft}
+  \begin{center}%
+    {\normalsize\bfseries\MakeUppercase{\@title}}\par
+    \vspace{1ex}
+    \@author\par
+  \end{center}}
+\makeatother
+
+%%% Формат блока аннотации %%%
+\renewenvironment{abstract}{%
+	  % \begin{center}
+  	% 	\bfseries\abstractname\vspace{-.5em}\vspace{0pt}
+  	% \end{center}
+	  \list{}{%
+	    \setlength{\listparindent}{\parindent} % Абзацный отступ аннотации
+	  	\setlength{\itemindent }{\listparindent}
+	    \setlength{\leftmargin}{0mm} % Поля аннотации
+	    \setlength{\rightmargin}{\leftmargin}%
+	    \setlength{\parsep}{\parskip}% Отступ ежду абзацами
+	  }%
+	  \item\relax}
+{\endlist}
+
+%%% Макет страницы %%%
+\geometry{a4paper,top=25mm,bottom=25mm,left=15mm,right=15mm,nofoot,nomarginpar} %,showframe
+\setlength{\topskip}{0pt}   %размер дополнительного верхнего поля
+
+%%% Колонтитулы %%%
+\pagestyle{empty} % нумерация страниц выкл.
+
+%%% Интервалы %%%
+%\DoubleSpacing*     % Двойной интервал
+% \OnehalfSpacing*    % Полуторный интервал
+%\OneSpacing*    % Одинарный интервал
+%\setSpacing{1.42}   % Полуторный интервал, подобный Ворду (возможно, стоит включать вместе с предыдущей строкой)
+
+%%% Выравнивание и переносы %%%
+%% http://tex.stackexchange.com/questions/241343/what-is-the-meaning-of-fussy-sloppy-emergencystretch-tolerance-hbadness
+%% http://www.latex-community.org/forum/viewtopic.php?p=70342#p70342
+\tolerance 1414
+\hbadness 1414
+\emergencystretch 1.5em % В случае проблем регулировать в первую очередь
+\hfuzz 0.3pt
+\vfuzz \hfuzz
+%\raggedbottom
+% \sloppy                 % Избавляемся от переполнений
+\clubpenalty=10000      % Запрещаем разрыв страницы после первой строки абзаца
+\widowpenalty=10000     % Запрещаем разрыв страницы после последней строки абзаца

@@ -1,0 +1,49 @@
+\documentclass[a4paper,12pt]{article}
+
+\input{../Setups/setup_XETEX}
+\input{../Styles/styles_KUZGTU}
+
+\input{data}
+
+\hypersetup{
+	pdftitle={\articleTitle},    % Заголовок
+	pdfauthor={\mainAuthor},  % Автор
+	% pdfsubject={Результаты эксперимента},      % Тема
+	% pdfcreator={Создатель},     % Создатель, Приложение
+	% pdfproducer={Производитель},% Производитель, Производитель PDF
+	pdfkeywords={\keywords}    % Ключевые слова
+}
+
+\input{../Setups/biblatex}
+
+
+%%% Подключение файлов bib %%%
+\addbibresource[label=other]{f:/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/othercites.bib}
+\addbibresource[label=vak]{f:/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/authorpapersVAK.bib}
+\addbibresource[label=papers]{f:/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/authorpapers.bib}
+\addbibresource[label=conf]{f:/Documents AntLer/GDrive/Dissertation/Dissertation-LaTeX/biblio/authorconferences.bib}
+
+\geometry{showframe} % Отображать поля страницы
+
+\begin{document}
+	\renewcommand{\tablename}{Таблица.}
+	\hypersetup{urlcolor=black}               % Ссылки делаем чёрными
+	\maketitle % Создание заголовка статьи
+	\thispagestyle{empty}% нумерация титульной страницы выкл.
+	\begin{abstract}
+		% Аннотация находится в файле abstract.tex
+		\input{abstract}
+
+		\textbf{Ключевые слова:} \keywords.		
+	\end{abstract}
+	% Основная часть статьи находится в файле content.tex
+	\input{content}
+
+	\FloatBarrier
+	\providecommand*{\BibDash}{}                % В стилях ugost2008 отключаем использование тире как разделителя 
+	\urlstyle{rm}                               % ссылки URL обычным шрифтом
+	\ifdefmacro{\microtypesetup}{\microtypesetup{protrusion=false}}{} % не рекомендуется применять пакет микротипографики к автоматически генерируемому списку литературы
+	\insertbiblio                          % Подключаем Bib-базы
+	\ifdefmacro{\microtypesetup}{\microtypesetup{protrusion=true}}{}
+	\urlstyle{tt}                               % возвращаем установки шрифта ссылок URL
+\end{document} 
