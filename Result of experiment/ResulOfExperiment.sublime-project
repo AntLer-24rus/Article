@@ -16,7 +16,9 @@
 				"*.xdv",
 				"*.fls",
 				"*.synctex(busy)",
-				"*.sublime-project"
+				"*.sublime-project",
+				"*.docx",
+				"*.doc"
 			],
 			"path": "."
 		}

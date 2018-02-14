@@ -28,13 +28,17 @@
 \begin{document}
 	\renewcommand{\tablename}{Таблица.}
 	\hypersetup{urlcolor=black}               % Ссылки делаем чёрными
-	\maketitle % Создание заголовка статьи
-	\thispagestyle{empty}% нумерация титульной страницы выкл.
+	\maketitle% Создание заголовка статьи
+  \thispagestyle{empty}% нумерация титульной страницы выкл.
 	\begin{abstract}
 		% Аннотация находится в файле abstract.tex
 		\input{abstract}
 
-		\textbf{Ключевые слова:} \keywords.		
+		\textbf{Ключевые слова:} \keywords.
+
+		\input{abstractEN}
+		
+		\textbf{Key words:} \keywordsEN.			
 	\end{abstract}
 	% Основная часть статьи находится в файле content.tex
 	\input{content}
